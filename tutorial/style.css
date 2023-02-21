@@ -1,0 +1,54 @@
+.vertical {
+    width: 68%;
+    height: 500px;
+    box-shadow: 0 0 0 1px #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.horizontal {
+    display: table;
+    width: 68%;
+    height: 500px;
+    box-shadow: 0 0 0 1px #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.horizontal.display {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu {
+    position: absolute;
+    width: 32%;
+    height: auto;
+}
+
+textarea {
+    display: table;
+    vertical-align: middle;
+    width: 90%;
+    background-color: black;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.video {
+    position: relative;
+    width: 68%;
+    height: 500px;
+    box-shadow: 0 0 0 1px #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.video-view {
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    margin: 50px;
+}

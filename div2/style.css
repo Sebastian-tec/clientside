@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    background-color: #0099ff;
+}
+
+.header {
+    background-color: #33ffff;
+    padding: 20px;
+    text-align: left;
+    width: 96.5%;
+    height: 50px;
+    color: red;
+    display: flex;
+    margin: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+.menu {
+    background-color: yellow;
+    text-align: left;
+    width: 15%;
+    height: 100vh;
+    position: fixed; 
+    align-items: center;
+}
+
+.menu-text {
+    box-shadow: 0 0 0 1px green;
+    background-color: green;
+    height: 75px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.main {
+    position: fixed;
+    background-color: red;
+    padding: 20px;
+    text-align: left;
+    width: 81%;
+    height: 100vh;
+    margin-left: 16%;
+}
